@@ -9,6 +9,7 @@
   border: 1px solid #F7E6CA;
   border-radius: 5px;
   box-shadow: 2px 2px 3px grey;
+  text-align: center;
 }
 
 #sidebar {
@@ -59,7 +60,7 @@ table{
 
 .social{
   display: inline-block;
-  margin: 100px;
+  padding: 30px;
 }
 
 .image_circle{
