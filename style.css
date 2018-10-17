@@ -1,5 +1,5 @@
 .container {
-  width: 500px;   /* This sets the width */
+  width: 860px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
 }
 
@@ -21,11 +21,13 @@
 }
 
 ul{
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
 #sidebar ul li{
-  border-bottom: 5px solid #F1D2A0;
+  border-bottom: 1px solid #F1D2A0;
   padding: 15px;
 }
 
@@ -57,7 +59,7 @@ table{
 
 .social{
   display: inline-block;
-  margin: 50px;
+  margin: 100px;
 }
 
 .image_circle{
@@ -71,6 +73,7 @@ table{
 body{
   background: #F1D2A0;
   font-size: 1em;
+  margin-left: 0;
 }
 
 h1{
