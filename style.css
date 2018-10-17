@@ -11,6 +11,28 @@
   box-shadow: 2px 2px 3px grey;
 }
 
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: #2A4B5D;
+}
+
+ul{
+  list-style: none;
+}
+
+#sidebar ul li{
+  border-bottom: 5px solid #F1D2A0;
+  padding: 15px;
+}
+
+#page-content {
+  margin-left: 300px;
+}
+
 td{
   padding: 5px;
 }

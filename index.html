@@ -27,37 +27,47 @@
 </head>
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <body>
-  <div class="container">
-    <div class="card">
-      <img class ="profile-img image_circle" src="images/me.jpg">
-      <h1 class="text_center">Mikel Cromphoudt</h1>
-      <h2 class="text_center">Full Stack Web Dev</h2>
-      <p class="text_center">I just <em>rule</em> I guess</p>
-    </div>
-    <div class="card">
-      <ul>
-        <li class="social"><a href="https://www.facebook.com/mike.cromphoudt" target="_blank"><i class="fab fa-facebook-square"></i>Facebook</a></li>
-        <li class="social"><a href="https://twitter.com/mikecromphoudt" target="_blank"><i class="fab fa-twitter-square"></i>Twitter</a></li>
-      </ul>
-    </div>
-    <div class="card">
-      <table>
-        <tbody>
-          <tr>
-            <td><img class ="thumb" src="images/mulholland_drive.jpg"></td>
-            <td>Mulholland Drive</td>
-          </tr>
-          <tr>
-            <td><img class ="thumb" src="images/thetown.jpg"></td>
-            <td>The Town</td>
-          </tr>
-          <tr>
-            <td><img class ="thumb" src="images/Gran-Torino.jpg"></td>
-            <td>Gone Baby Gone/Gran Torino</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+  <div id="sidebar">
+    <ul>
+      <li><a href="#info">Bio</a></li>
+      <li><a href="#social">Social</a></li>
+      <li><a href="#fav_movies">Favorite Movies</a></li>
+    </ul>
+  </div>
+  <div id="page-content">
+    <div class="container">
+      <div class="card" id="info">
+        <img class ="profile-img image_circle" src="images/me.jpg">
+        <h1 class="text_center">Mikel Cromphoudt</h1>
+        <h2 class="text_center">Full Stack Web Dev</h2>
+        <p class="text_center">I just <em>rule</em> I guess</p>
+      </div>
+      <div class="card" id="social">
+        <ul>
+          <li class="social"><a href="https://www.facebook.com/mike.cromphoudt" target="_blank"><i class="fab fa-facebook-square"></i>Facebook</a></li>
+          <li class="social"><a href="https://twitter.com/mikecromphoudt" target="_blank"><i class="fab fa-twitter-square"></i>Twitter</a></li>
+        </ul>
+      </div>
+      <div class="card" id="fav_movies">
+        <table>
+          <tbody>
+            <tr>
+              <td><img class ="thumb" src="images/mulholland_drive.jpg"></td>
+              <td>Mulholland Drive</td>
+            </tr>
+            <tr>
+              <td><img class ="thumb" src="images/thetown.jpg"></td>
+              <td>The Town</td>
+            </tr>
+            <tr>
+              <td><img class ="thumb" src="images/Gran-Torino.jpg"></td>
+              <td>Gone Baby Gone/Gran Torino</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </div>
+
   </div>
 
 <!-- JS scripts-->
